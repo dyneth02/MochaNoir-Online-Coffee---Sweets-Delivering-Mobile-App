@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundpic"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="361dp"
+        android:layout_height="103dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="5dp">
+
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/poppins_light"
+            android:text="@string/salutation"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.493" />
+
+        <ImageView
+            android:id="@+id/location_pic"
+            android:layout_width="19dp"
+            android:layout_height="17dp"
+            android:layout_marginEnd="331dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/location" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="72dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="269dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/location"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/location_pic" />
+
+        <ImageView
+            android:id="@+id/bell"
+            android:layout_width="31dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="191dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/profile_pic"
+            app:layout_constraintStart_toEndOf="@+id/location"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bell" />
+
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="30dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="46dp"
+            android:layout_marginBottom="29dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bell"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/mainFrameLayout"
+        android:layout_width="455dp"
+        android:layout_height="611dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="412dp"
+        android:layout_height="129dp"
+        android:background="@drawable/nav_background"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="@color/nav_icon_color"
+        app:itemActiveIndicatorStyle="@drawable/bottom_nav_item_background"
+        app:menu="@menu/bottom_nav" />
+</androidx.constraintlayout.widget.ConstraintLayout>
