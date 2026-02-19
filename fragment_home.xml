@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <ScrollView
+        android:id="@+id/home_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/chocie"
+                android:layout_width="match_parent"
+                android:layout_height="913dp">
+
+                <TextView
+                    android:id="@+id/categories"
+                    android:layout_width="95dp"
+                    android:layout_height="26dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="288dp"
+                    android:layout_marginBottom="876dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/categories"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/classic_coffee"
+                    android:layout_width="149dp"
+                    android:layout_height="97dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="41dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_marginBottom="735dp"
+                    android:background="@drawable/cat_background"
+                    android:clickable="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="@string/classic_coffee"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/coffee_beans"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/categories"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/coffee_beans"
+                    android:layout_width="149dp"
+                    android:layout_height="97dp"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginEnd="96dp"
+                    android:background="@drawable/cat_background"
+                    android:clickable="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="@string/coffee_beans"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/classic_coffee"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/desserts"
+                    android:layout_width="149dp"
+                    android:layout_height="97dp"
+                    android:layout_marginStart="39dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginBottom="607dp"
+                    android:background="@drawable/cat_background"
+                    android:clickable="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="@string/desserts"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/classic_coffee" />
+
+                <TextView
+                    android:id="@+id/signature_appetizers"
+                    android:layout_width="149dp"
+                    android:layout_height="97dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginEnd="96dp"
+                    android:layout_marginBottom="607dp"
+                    android:background="@drawable/cat_background"
+                    android:clickable="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="@string/signature_appetizers"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/desserts"
+                    app:layout_constraintTop_toBottomOf="@+id/coffee_beans"
+                    app:layout_constraintVertical_bias="1.0" />
+
+                <TextView
+                    android:id="@+id/gift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="272dp"
+                    android:layout_marginBottom="24dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/gift"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toTopOf="@+id/imageView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="327dp"
+                    android:layout_height="189dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="344dp"
+                    android:src="@drawable/offer_card"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/best_choice"
+                    android:layout_width="96dp"
+                    android:layout_height="21dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="36dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/best_choice"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <TextView
+                    android:id="@+id/seemore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="112dp"
+                    android:fontFamily="@font/poppins_light"
+                    android:text="@string/seemore"
+                    android:textColor="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="171dp"
+                    android:layout_height="249dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="32dp"
+                    android:src="@drawable/home_card_1"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView3"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="172dp"
+                    android:layout_height="236dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginBottom="32dp"
+                    android:src="@drawable/home_card_2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
