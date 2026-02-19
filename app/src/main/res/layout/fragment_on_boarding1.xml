@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/second_frag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardingFragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/on_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/onText1"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:backgroundTint="@color/light_brown"
+        android:text="@string/get_started"
+        android:textColor="@color/dark_brown"
+        android:textColorLink="@color/light_brown" />
+
+</FrameLayout>
