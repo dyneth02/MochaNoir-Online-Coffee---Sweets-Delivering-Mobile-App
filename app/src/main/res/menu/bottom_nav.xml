@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/house"/>
+
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/search"/>
+
+    <item android:title="Cart"
+        android:id="@+id/cart"
+        android:icon="@drawable/shopping"/>"/>
+</menu>
