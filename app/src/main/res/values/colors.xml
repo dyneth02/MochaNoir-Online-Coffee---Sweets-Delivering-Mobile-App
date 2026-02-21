@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_brown">#230C02</color> <!-- primary color -->
+    <color name="mid_brown">#74574B</color> <!-- secondary color -->
+    <color name="light_brown">#EEDCC6</color> <!-- accent color light -->
+    <color name="grey">#939393</color> <!-- accent color dark -->
+</resources>
