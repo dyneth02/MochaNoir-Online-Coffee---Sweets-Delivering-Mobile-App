@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Mocha Noir</string>
+    <string name="salutation">Good Day</string>
+    <string name="location">Panadura</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categories">Categories</string>
+    <string name="classic_coffee">Classic\nCoffee</string>
+    <string name="coffee_beans">Coffee\nBeans</string>
+    <string name="desserts">Desserts</string>
+    <string name="signature_appetizers">Signature\nAppetizers</string>
+
+
+    <string name="gift">Gift of Flavors</string>
+    <string name="best_choice">Best Choice\n</string>
+    <string name="seemore">see more</string>
+    <string name="search_text">Search your Desires ...</string>
+    <string name="search_box">Search your Desires ...</string>
+    <string name="placeholder">Search your Desires ...</string>
+
+
+    <string name="search_txt">Search</string>
+    <string name="checkout_btn">checkout</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="fpass">Forgot Password ?</string>
+    <string name="login">Log In</string>
+    <string name="donthv">Don\'t have an account ? Join Now</string>
+    <string name="alreadyhv">Already have an account ? Log In</string>
+    <string name="register">Register</string>
+
+
+    <string name="username">\@dinethHirusha</string>
+    <string name="onText1">Exceptional Brews\nEvery time</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="on_text_2">Extended with Sweet\nFlavors of Delight</string>
+    <string name="explore">Explore</string>
+
+
+    <string name="on_text_3">Indulge a Premium\nCoffee Experience</string>
+    <string name="robusta_beans_title">Robusta Beans</string>
+    <string name="robusta_beans_description">A strong, bold aroma and a tight sensitive taste</string>
+    <string name="robusta_beans_in_stock">In stock</string>
+    <string name="robusta_beans_price">Rs. 1950.50</string>
+
+
+    <string name="arabica_beans_title">Arabica Beans</string>
+    <string name="arabica_beans_description">Experience a smooth low acidity in your coffee</string>
+    <string name="arabica_beans_in_stock">In stock</string>
+    <string name="arabica_beans_price">Rs. 1950.50</string>
+
+
+    <string name="liberica_beans_title">Liberica Beans</string>
+    <string name="liberica_beans_description">Indulge in bold, earthy robusta, with floral notes</string>
+    <string name="liberica_beans_in_stock">In stock</string>
+    <string name="liberica_beans_price">Rs. 1950.50</string>
+
+
+    <string name="excelsa_beans_title">Excelsa Beans</string>
+    <string name="excelsa_beans_description">Enjoy a tart, rich flavor with fruity notes</string>
+    <string name="excelsa_beans_in_stock">In stock</string>
+    <string name="excelsa_beans_price">Rs. 1950.50</string>
+
+
+    <string name="gift_of_flavors">Gift of Flavors</string>
+    <string name="milk_doughnut_title">Milk Doughnut with Choco Muffins</string>
+    <string name="milk_doughnut_description">Decadent doughnut to satisfy your sweet tooth</string>
+    <string name="milk_doughnut_old_price">Rs. 550</string>
+    <string name="milk_doughnut_new_price">Rs. 280</string>
+
+
+    <string name="your_address">Your Address</string>
+    <string name="deliver_to">Deliver to</string>
+    <string name="delivery_address">210 A/2, Fake Street, Panadura.</string>
+    <string name="your_orders">Your Orders</string>
+    <string name="robusta_beans_500g">500g Robusta Beans</string>
+
+
+    <string name="chill_mocha">1x Chill Mocha</string>
+    <string name="red_velvet">1x Red Velvet</string>
+    <string name="in_stock">in stock</string>
+    <string name="rs_1950_50">Rs. 1950.50</string>
+    <string name="rs_350_00">Rs. 350.00</string>
+    <string name="rs_220_00">Rs. 220.00</string>
+
+
+    <string name="sub_total">Sub Total</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="discounts">Discount(s)</string>
+    <string name="total">Total</string>
+
+
+    <string name="rs_2050_50">Rs. 2050.50</string>
+    <string name="rs_400_00">Rs. 400.00</string>
+    <string name="rs_250_00">Rs. 250.00</string>
+    <string name="rs_3200_50">Rs. 3200.50</string>
+
+
+    <string name="cherry_berry_bliss">Cherry Berry Bliss</string>
+    <string name="grapy_crunch">Grapy Crunch</string>
+    <string name="dessert_price_220">Rs. 220.00</string>
+    <string name="dessert_price_180_50">Rs. 180.50</string>
+
+
+    <string name="strawberry_glaze">Strawberry Glaze</string>
+    <string name="dessert_price_200">Rs. 200.00</string>
+    <string name="lemon_zest">Lemon Zest</string>
+    <string name="dessert_price_150">Rs. 150.00</string>
+
+
+    <string name="gift_">Gift of Flavors</string>
+    <string name="milk_doughnut_choco_muffins">Milk Doughnut with Choco Muffins</string>
+    <string name="milk_doughnut_desc">Decadent doughnut to satisfy your sweet tooth</string>
+    <string name="old_price">~Rs. 550</string>
+    <string name="new_price">Rs. 280</string>
+
+
+    <string name="caramel_drizzle">Caramel Drizzle</string>
+    <string name="caramel_drizzle_description">Donut coated with colorful sprinkles and drizzled with sweet caramel</string>
+    <string name="caramel_drizzle_price">Rs. 220.00</string>
+    <string name="robusta_beans_roll">Robusta Beans Roll</string>
+    <string name="robusta_beans_roll_price">Rs. 115.00</string>
+
+
+    <string name="go_back">Go Back</string>
+
+</resources>
